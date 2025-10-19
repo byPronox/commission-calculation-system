@@ -1,0 +1,9 @@
+.stats {
+  &__title { margin-bottom: 0.75rem; }
+  &__empty { color: var(--c-muted); }
+  &__list { display: grid; gap: 0.5rem; }
+  &__item {
+    display: flex; justify-content: space-between;
+    border: 1px solid #eef2f7; border-radius: 8px; padding: 0.5rem 0.75rem;
+  }
+}

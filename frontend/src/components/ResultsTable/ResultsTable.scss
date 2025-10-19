@@ -1,0 +1,27 @@
+.results {
+  &__title { margin-bottom: 0.75rem; }
+
+  &__table {
+    display: grid;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+
+    &--head {
+      background: #f3f4f6;
+      font-weight: 700;
+    }
+  }
+
+  &__cell {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eef2f7;
+  }
+
+  &__empty { color: var(--c-muted); }
+}
