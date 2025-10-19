@@ -1,0 +1,63 @@
+# ======================
+# General
+# ======================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# VSCode history & workspace
+.history/
+.vscode/
+.idea/
+
+# ======================
+# Python / FastAPI backend
+# ======================
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/commissions.db
+backend/*.sqlite3
+
+# ======================
+# Node / React frontend
+# ======================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.eslintcache
+
+# ======================
+# OS / Editor junk
+# ======================
+*.orig
+*.lock
+*.pid
+*.seed
+*.out
+*.tgz
+*.tar.gz
+*.zip
+
+# ======================
+# Dependency lock files (optional)
+# uncomment if you prefer to not version lock files
+# package-lock.json
+# yarn.lock
+# Pipfile.lock
