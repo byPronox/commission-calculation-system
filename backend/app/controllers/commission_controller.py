@@ -53,7 +53,6 @@ def calculate_commissions(db: Session, start_date: date, end_date: date):
         amount = float(r.total_amount or 0.0)
         rate = _rate_for_total(amount)
         commission = amount * rate
-
         total_sales += count
         total_amount += amount
         total_commission += commission

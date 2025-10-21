@@ -3,6 +3,10 @@
 A full-stack web application built with **FastAPI (Python)** and **React (Vite + Sass)** that calculates commissions for salespeople based on configurable rules.
 The system follows the **MVC architecture**, supports **data visualization**, and is fully deployable to the cloud (Render + Vercel).
 
+<p align="center">
+  <img src="docs/Screenshot.png" alt="Commission Calculation System - Screenshot" width="900">
+</p>
+
 ---
 
 ## Overview

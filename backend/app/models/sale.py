@@ -7,6 +7,5 @@ class Sale(Base):
     id = Column(Integer, primary_key=True, index=True)
     amount = Column(Float, nullable=False)
     date = Column(Date, nullable=False)
-
     seller_id = Column(Integer, ForeignKey("sellers.id"), nullable=False)
     seller = relationship("Seller", back_populates="sales")

@@ -9,7 +9,6 @@ router = APIRouter(prefix="/demo", tags=["Demo"])
 
 @router.post("/seed")
 def seed_demo(db: Session = Depends(get_db)):
-    # Create sellers if none
     if db.query(Seller).count() == 0:
         names = ["Perico P", "Zoila B", "Aquiles C", "Johny M"]
         for n in names:
